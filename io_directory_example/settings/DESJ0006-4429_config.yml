@@ -1,6 +1,6 @@
 band:
 - F200LP
-- F140W
+# - F140W
 fitting:
   mcmc_settings:
     burnin_step: 0
@@ -21,7 +21,7 @@ fitting:
 guess_params:
   lens:
     0:
-      theta_E: 1.99
+      theta_E: 2.3
 kwargs_constraints:
   joint_lens_light_with_lens_light:
   - - 0
@@ -30,22 +30,22 @@ kwargs_constraints:
       - e2
       - center_x
       - center_y
-  - - 0
-    - 2
-    - - e1
-      - e2
-      - R_sersic
-      - center_x
-      - center_y
-  - - 0
-    - 3
-    - - e1
-      - e2
-      - center_x
-      - center_y
-  - - 1
-    - 3
-    - - R_sersic
+#   - - 0
+#     - 2
+#     - - e1
+#       - e2
+#       - R_sersic
+#       - center_x
+#       - center_y
+#   - - 0
+#     - 3
+#     - - e1
+#       - e2
+#       - center_x
+#       - center_y
+#   - - 1
+#     - 3
+#     - - R_sersic
   joint_lens_with_light:
   - - 0
     - 0
@@ -56,29 +56,29 @@ kwargs_constraints:
     - 1
     - - center_x
       - center_y
-  - - 0
-    - 2
-    - - center_x
-      - center_y
-  - - 0
-    - 3
-    - - center_x
-      - center_y
-  - - 1
-    - 3
-    - - e1
-      - e2
-      - R_sersic
+#   - - 0
+#     - 2
+#     - - center_x
+#       - center_y
+#   - - 0
+#     - 3
+#     - - center_x
+#       - center_y
+#   - - 1
+#     - 3
+#     - - e1
+#       - e2
+#       - R_sersic
 lens_light_option:
   fix:
     0:
       n_sersic: 4.0
     1:
       n_sersic: 1.0
-    2:
-      n_sersic: 4.0
-    3:
-      n_sersic: 1.0
+#     2:
+#       n_sersic: 4.0
+#     3:
+#       n_sersic: 1.0
 lens_option:
   centroid_init:
   - 0.0
@@ -88,39 +88,39 @@ mask:
   centroid_offset:
   - - -0.15220000000000003 # x center of bigger mask, F200LP
     - -0.055 # y center of bigger mask, F200LP
-  - - -0.1104 # F140W
-    - 0.0358 # F140W
+#   - - -0.1104 # F140W
+#     - 0.0358 # F140W
   custom_mask:
   - null
   - null
   dec_at_xy_0:
   - -3.264483316503743 # F200LP
-  - -3.2734996334246076 # F140W
+#   - -3.2734996334246076 # F140W
   extra_regions: # control small mask
   - - - 0.2478 # x coordinate, F200LP
       - -0.055 # y coordinate, F200LP
       - 0.2 
-  - - - 0.2896 # F140W
-      - 0.0358 # F140W
-      - 0.2 # radius
+#   - - - 0.2896 # F140W
+#       - 0.0358 # F140W
+#       - 0.2 # radius
   ra_at_xy_0:
   - -4.180645270707089 # F200LP
-  - -4.19147416257398 # F140W
+#   - -4.19147416257398 # F140W
   radius:
   - 3.8 # radius of bigger mask
-  - 3.8
+#   - 3.8
   size:
   - 150 # F200LP
-  - 94 # F140W
+#   - 94 # F140W
   transform_matrix:
   - - - 0.00611732 # F200LP
       - 0.04962462
     - - 0.04964166
       - -0.00611522
-  - - - 0.00977998 # F140W
-      - 0.07940032
-    - - 0.07942577
-      - -0.00977684
+#   - - - 0.00977998 # F140W
+#       - 0.07940032
+#     - - 0.07942577
+#       - -0.00977684
 model:
   lens:
   - PEMD
@@ -128,30 +128,30 @@ model:
   lens_light:
   - SERSIC_ELLIPSE
   - SERSIC_ELLIPSE
-  - SERSIC_ELLIPSE
-  - SERSIC_ELLIPSE
+#   - SERSIC_ELLIPSE
+#   - SERSIC_ELLIPSE
   lens_light_band_indices:
   - 0
   - 0
-  - 1
-  - 1
+#   - 1
+#   - 1
   point_source: []
   source_light:
   - SHAPELETS
   - SERSIC_ELLIPSE
-  - SHAPELETS
-  - SERSIC_ELLIPSE
+#   - SHAPELETS
+#   - SERSIC_ELLIPSE
   source_light_band_indices:
   - 0
   - 0
-  - 1
-  - 1
+#   - 1
+#   - 1
 numeric_option:
   supersampling_factor:
   - 2
 pixel_size: 
-- 0.08 # F200LP
-- 0.05 # F140W
+- 0.05 # F200LP
+# - 0.08 # F140W
 point_source_option:
   bound: 0.0
   dec_init: []
@@ -161,8 +161,8 @@ source_light_option:
     1:
       n_sersic: 4.0
   n_max:
-  - 6
-  - 6
+  - 12
+#   - 6
   shapelet_scale_logarithmic_prior: true
 # source_redshift: 0.463
 system_name: DESJ0006-4429
