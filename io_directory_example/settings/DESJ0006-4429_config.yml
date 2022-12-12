@@ -1,6 +1,6 @@
 band:
-- F200LP
-# - F140W
+# - F200LP
+- F140W
 fitting:
   mcmc_settings:
     burnin_step: 0
@@ -86,41 +86,41 @@ lens_option:
   constrain_position_angle_from_lens_light: 15
 mask:
   centroid_offset:
-  - - -0.15220000000000003 # x center of bigger mask, F200LP
-    - -0.055 # y center of bigger mask, F200LP
-#   - - -0.1104 # F140W
-#     - 0.0358 # F140W
+  # - - -0.15220000000000003 # x center of bigger mask, F200LP
+  #   - -0.055 # y center of bigger mask, F200LP
+  - - -0.1104 # F140W
+    - 0.0358 # F140W
   custom_mask:
   - null
   - null
   dec_at_xy_0:
-  - -3.264483316503743 # F200LP
-#   - -3.2734996334246076 # F140W
+  # - -3.264483316503743 # F200LP
+  - -3.2734996334246076 # F140W
   extra_regions: # control small mask
-  - - - 0.2478 # x coordinate, F200LP
-      - -0.055 # y coordinate, F200LP
-      - 0.2 
-#   - - - 0.2896 # F140W
-#       - 0.0358 # F140W
-#       - 0.2 # radius
+  # - - - 0.2478 # x coordinate, F200LP
+  #     - -0.055 # y coordinate, F200LP
+  #     - 0.2 
+  - - - 0.2896 # F140W
+      - 0.0358 # F140W
+      - 0.2 # radius
   ra_at_xy_0:
-  - -4.180645270707089 # F200LP
-#   - -4.19147416257398 # F140W
+  # - -4.180645270707089 # F200LP
+  - -4.19147416257398 # F140W
   radius:
   - 3.8 # radius of bigger mask
 #   - 3.8
   size:
-  - 150 # F200LP
-#   - 94 # F140W
+  # - 150 # F200LP
+  - 94 # F140W
   transform_matrix:
-  - - - 0.00611732 # F200LP
-      - 0.04962462
-    - - 0.04964166
-      - -0.00611522
-#   - - - 0.00977998 # F140W
-#       - 0.07940032
-#     - - 0.07942577
-#       - -0.00977684
+  # - - - 0.00611732 # F200LP
+  #     - 0.04962462
+  #   - - 0.04964166
+  #     - -0.00611522
+  - - - 0.00977998 # F140W
+      - 0.07940032
+    - - 0.07942577
+      - -0.00977684
 model:
   lens:
   - PEMD
@@ -150,8 +150,8 @@ numeric_option:
   supersampling_factor:
   - 2
 pixel_size: 
-- 0.05 # F200LP
-# - 0.08 # F140W
+# - 0.05 # F200LP
+- 0.08 # F140W
 point_source_option:
   bound: 0.0
   dec_init: []
