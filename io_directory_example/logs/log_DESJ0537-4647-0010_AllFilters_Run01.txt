@@ -4,3 +4,9 @@ PSO: Exception while calling your likelihood function:
   args: []
   kwargs: {}
   exception:
+-1.1413924391535382 reduced X^2 of all evaluated imaging data combined (without degrees of freedom subtracted).
+reduced chi^2 of data  0 =  1.1948012225548206
+reduced chi^2 of data  1 =  0.9243232382569617
+-1.1413924391535382 reduced X^2 of all evaluated imaging data combined (without degrees of freedom subtracted).
+reduced chi^2 of data  0 =  1.1948012225548206
+reduced chi^2 of data  1 =  0.9243232382569617
