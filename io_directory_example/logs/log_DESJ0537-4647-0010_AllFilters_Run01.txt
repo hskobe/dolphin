@@ -1,0 +1,6 @@
+Computing the PSO ...
+PSO: Exception while calling your likelihood function:
+  params: [0.1760394759607256, -0.004941085761059935, 0.06941856221799278, 0.004673449681410917, -0.004849220630124776, 0.22983660602174127]
+  args: []
+  kwargs: {}
+  exception:

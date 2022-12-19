@@ -17,7 +17,7 @@ fitting:
     num_iteration: 248
     num_particle: 250
   sampler: MCMC
-  sampling: true
+  sampling: false
 guess_params:
   lens:
     0:
@@ -88,8 +88,8 @@ mask:
   centroid_offset:
   - - 0.045499999999999985 # x center of bigger mask, F200LP
     - 0.1236 # y center of bigger mask, F200LP
-  - - -0.023599999999999954 # F140W
-    - 0.1882 # F140W
+  - - 0.023399999999999976 # F140W
+    - 0.0259 # F140W
   custom_mask:
   - null
   - null
@@ -100,8 +100,8 @@ mask:
   - - - 0.6455 # x coordinate, F200LP
       - 0.1451
       - 0.2 # y coordinate, F200LP
-  - - - 0.5764 # F140W
-      - 0.1882 # F140W
+  - - - 0.6234 # F140W
+      - 0.0259 # F140W
       - 0.2 # radius
   ra_at_xy_0:
   - -1.3508120373124508 # F200LP
@@ -111,7 +111,7 @@ mask:
   - 3.1
   size:
   - 140 # F200LP
-  - 140 # F140W
+  - 60 # F140W
   transform_matrix:
   - - - -0.0243686 # F200LP
       - 0.04366592
@@ -161,8 +161,8 @@ source_light_option:
     1:
       n_sersic: 4.0
   n_max:
-  - 8
-  - 8
+  - 6
+  - 6
   shapelet_scale_logarithmic_prior: true
 # source_redshift: 0.463
-system_name: DESJ0537-4647
+system_name: DESJ0537-4647-0010

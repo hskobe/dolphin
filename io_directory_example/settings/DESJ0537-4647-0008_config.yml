@@ -17,7 +17,7 @@ fitting:
     num_iteration: 248
     num_particle: 250
   sampler: MCMC
-  sampling: true
+  sampling: false
 guess_params:
   lens:
     0:
@@ -161,8 +161,8 @@ source_light_option:
     1:
       n_sersic: 4.0
   n_max:
-  - 8
-  - 8
+  - 6
+  - 6
   shapelet_scale_logarithmic_prior: true
 # source_redshift: 0.463
-system_name: DESJ0537-4647
+system_name: DESJ0537-4647-0008
