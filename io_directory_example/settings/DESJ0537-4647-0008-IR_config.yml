@@ -1,0 +1,111 @@
+band:
+- F140W
+fitting:
+  mcmc_settings:
+    burnin_step: 0
+    iteration_step: 2000
+    walker_ratio: 8
+  psf_iteration: false
+  psf_iteration_settings:
+    block_neighbor: 0.0
+    psf_iteration_factor: 0.5
+    psf_iteration_num: 50
+    psf_symmetry: 4
+  pso: true
+  pso_settings:
+    num_iteration: 248
+    num_particle: 250
+  sampler: MCMC
+  sampling: false
+guess_params:
+  lens:
+    0:
+      theta_E: 1.99
+kwargs_constraints:
+  joint_lens_light_with_lens_light:
+  - - 0
+    - 1
+    - - e1
+      - e2
+      - center_x
+      - center_y
+  joint_lens_with_light:
+  - - 0
+    - 0
+    - - center_x
+      - center_y
+  joint_source_with_source:
+  - - 0
+    - 1
+    - - center_x
+      - center_y
+lens_light_option:
+  fix:
+    0:
+      n_sersic: 4.0
+    1:
+      n_sersic: 1.0
+lens_option:
+  centroid_init:
+  - 0.0
+  - 0.0
+  constrain_position_angle_from_lens_light: 15
+mask:
+  centroid_offset:
+  - - -0.02079999999999993 # F140W
+    - 0.1059 # F140W
+  custom_mask:
+  - null
+  - null
+  dec_at_xy_0:
+  - -4.790514038793286 # F140W
+  extra_regions: # control small mask
+  - - - 0.5792 # F140W
+      - 0.1059 # F140W
+      - 0.2 # radius
+  ra_at_xy_0:
+  - -1.3580919570862997 # F140W
+  radius:
+  - 3.1 # radius of bigger mask
+  size:
+  - 88 # F140W
+  transform_matrix:
+  - - - -0.03899691 # F140W
+      - 0.06986264
+    - - 0.06989827
+      - 0.03897705
+model:
+  lens:
+  - PEMD
+  - SHEAR_GAMMA_PSI
+  lens_light:
+  - SERSIC_ELLIPSE
+  - SERSIC_ELLIPSE
+  lens_light_band_indices:
+  - 0
+  - 0
+  point_source: []
+  source_light:
+  - SHAPELETS
+  - SERSIC_ELLIPSE
+  source_light_band_indices:
+  - 0
+  - 0
+numeric_option:
+  supersampling_factor:
+  - 2
+pixel_size: 
+- 0.08 # F140W
+point_source_option:
+  bound: 0.0
+  dec_init: []
+  ra_init: []
+source_light_option:
+  fix:
+    1:
+      n_sersic: 4.0
+  n_max:
+  - 6
+  shapelet_scale_logarithmic_prior: true
+# source_redshift: 0.463
+system_name: DESJ0537-4647-0008-IR
