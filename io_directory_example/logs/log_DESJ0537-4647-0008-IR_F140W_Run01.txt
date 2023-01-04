@@ -1,0 +1,361 @@
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-7.531494276895133 reduced X^2 of best position
+-8849.505775351781 logL
+2350 effective number of data points
+[{'theta_E': 1.0, 'gamma': 2.0, 'e1': 0.0, 'e2': 0.0, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1, 'center_x': 0.0, 'center_y': 0.0}, {'amp': 1, 'R_sersic': 0.2, 'n_sersic': 4.0, 'e1': 0.0, 'e2': 0.0, 'center_x': 0.0, 'center_y': 0.0}] source result
+[{'amp': 1, 'R_sersic': 2.2877118868025947, 'n_sersic': 4.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'amp': 1, 'R_sersic': 1.1233538732986805, 'n_sersic': 1.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}] lens light result
+[] point source result
+{} special param result
+845.8328564167023 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-42916.51305383002 reduced X^2 of best position
+-100016933.67195086 logL
+4661 effective number of data points
+[{'theta_E': 1.99, 'gamma': 2.0, 'e1': 0.0, 'e2': 0.0, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1, 'center_x': 0.00815902349334608, 'center_y': 0.1364102072947255}, {'amp': 1, 'R_sersic': 0.04000000922360535, 'n_sersic': 4.0, 'e1': -0.4999996622465287, 'e2': -0.41863127277628753, 'center_x': 0.00815902349334608, 'center_y': 0.1364102072947255}] source result
+[{'amp': 1, 'R_sersic': 2.2877118868025947, 'n_sersic': 4.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'amp': 1, 'R_sersic': 1.1233538732986805, 'n_sersic': 1.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}] lens light result
+[] point source result
+{} special param result
+847.6549484729767 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-42944.03491669486 reduced X^2 of best position
+-100016657.32098232 logL
+4658 effective number of data points
+[{'theta_E': 2.0637404197618685, 'gamma': 2.0, 'e1': 0.0989050496646346, 'e2': -2.9639221386163943e-05, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1, 'center_x': 0.008782378733370495, 'center_y': 0.13518387125019662}, {'amp': 1, 'R_sersic': 0.04005662214027176, 'n_sersic': 4.0, 'e1': -0.4996137748361863, 'e2': -0.4999733245330869, 'center_x': 0.008782378733370495, 'center_y': 0.13518387125019662}] source result
+[{'amp': 1, 'R_sersic': 2.2877118868025947, 'n_sersic': 4.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'amp': 1, 'R_sersic': 1.1233538732986805, 'n_sersic': 1.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}] lens light result
+[] point source result
+{} special param result
+853.3072533607483 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-42953.25605242051 reduced X^2 of best position
+-100016656.71806116 logL
+4657 effective number of data points
+[{'theta_E': 2.0637085809197577, 'gamma': 2.0, 'e1': 0.09885494781060027, 'e2': -3.254267428631445e-05, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.09874997451343255, 'center_x': 0.008740367882972843, 'center_y': 0.13533231907977472}, {'amp': 1, 'R_sersic': 0.04000000010213523, 'n_sersic': 4.0, 'e1': -0.4999999999196496, 'e2': -0.49999999975211257, 'center_x': 0.008740367882972843, 'center_y': 0.13533231907977472}] source result
+[{'amp': 1, 'R_sersic': 2.2877118868025947, 'n_sersic': 4.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}, {'amp': 1, 'R_sersic': 1.1233538732986805, 'n_sersic': 1.0, 'e1': 0.0006496684550303029, 'e2': 0.00037480115306097185, 'center_x': 0.49999994125379693, 'center_y': 0.13703153265695897}] lens light result
+[] point source result
+{} special param result
+828.4796092510223 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-43005.31193514751 reduced X^2 of best position
+-100008852.90518554 logL
+4651 effective number of data points
+[{'theta_E': 1.9843693891724596, 'gamma': 2.0, 'e1': -0.2010726725126773, 'e2': -0.0384578975662586, 'center_x': 0.499999943738109, 'center_y': 0.11322526755324967}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.09945129438381661, 'center_x': -0.022030664165073956, 'center_y': 0.0671533106624618}, {'amp': 1, 'R_sersic': 0.040023981643007134, 'n_sersic': 4.0, 'e1': -0.24773994558130036, 'e2': -0.3563869760048841, 'center_x': -0.022030664165073956, 'center_y': 0.0671533106624618}] source result
+[{'amp': 1, 'R_sersic': 1.8860698896154837, 'n_sersic': 4.0, 'e1': -0.12597327462318966, 'e2': 0.009837573919239274, 'center_x': 0.499999943738109, 'center_y': 0.11322526755324967}, {'amp': 1, 'R_sersic': 0.9729958446038811, 'n_sersic': 1.0, 'e1': -0.12597327462318966, 'e2': 0.009837573919239274, 'center_x': 0.499999943738109, 'center_y': 0.11322526755324967}] lens light result
+[] point source result
+{} special param result
+849.4574244022369 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-4.818135049235053 reduced X^2 of best position
+-5661.308682851188 logL
+2350 effective number of data points
+[{'theta_E': 1.9843693891724596, 'gamma': 2.0, 'e1': -0.2010726725126773, 'e2': -0.0384578975662586, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.09945129438381661, 'center_x': -0.022030664165073956, 'center_y': 0.0671533106624618}, {'amp': 1, 'R_sersic': 0.040023981643007134, 'n_sersic': 4.0, 'e1': -0.24773994558130036, 'e2': -0.3563869760048841, 'center_x': -0.022030664165073956, 'center_y': 0.0671533106624618}] source result
+[{'amp': 1, 'R_sersic': 1.9470285293921186, 'n_sersic': 4.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'amp': 1, 'R_sersic': 1.2009470383046552, 'n_sersic': 1.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}] lens light result
+[] point source result
+{} special param result
+860.2987735271454 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+Converged after 203 iterations!
+Best fit found:  -100009473.85189688 [-0.027521045933055578, 0.07889750657541515, 0.040141280728518414, 0.49999869265738833, 0.08246044046504133]
+-42913.31210122158 reduced X^2 of best position
+-100009473.85189688 logL
+4661 effective number of data points
+[{'theta_E': 1.99, 'gamma': 2.0, 'e1': -0.2010726725126773, 'e2': -0.0384578975662586, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1, 'center_x': -0.027521045933055578, 'center_y': 0.07889750657541515}, {'amp': 1, 'R_sersic': 0.040141280728518414, 'n_sersic': 4.0, 'e1': 0.49999869265738833, 'e2': 0.08246044046504133, 'center_x': -0.027521045933055578, 'center_y': 0.07889750657541515}] source result
+[{'amp': 1, 'R_sersic': 1.9470285293921186, 'n_sersic': 4.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'amp': 1, 'R_sersic': 1.2009470383046552, 'n_sersic': 1.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}] lens light result
+[] point source result
+{} special param result
+705.9687144756317 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-42940.903804681155 reduced X^2 of best position
+-100009364.96110241 logL
+4658 effective number of data points
+[{'theta_E': 1.9783865809659498, 'gamma': 2.0, 'e1': -0.20455808316055551, 'e2': -0.04232056178522644, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1, 'center_x': -0.030913853555158226, 'center_y': 0.07434505251669532}, {'amp': 1, 'R_sersic': 0.49958544977852887, 'n_sersic': 4.0, 'e1': 0.4997850698603557, 'e2': -0.03748403424030409, 'center_x': -0.030913853555158226, 'center_y': 0.07434505251669532}] source result
+[{'amp': 1, 'R_sersic': 1.9470285293921186, 'n_sersic': 4.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'amp': 1, 'R_sersic': 1.2009470383046552, 'n_sersic': 1.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}] lens light result
+[] point source result
+{} special param result
+857.8395121097565 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+Converged after 175 iterations!
+Best fit found:  -100009319.60910963 [1.9826858453247809, -0.20658221579298594, -0.045193501866706176, 0.1087889698725206, -0.046796385277726095, 0.0708750505598697, 0.4999999347287779, 0.17276681659509077, -0.03061195226165507]
+-42950.10505007929 reduced X^2 of best position
+-100009319.60910963 logL
+4657 effective number of data points
+[{'theta_E': 1.9826858453247809, 'gamma': 2.0, 'e1': -0.20658221579298594, 'e2': -0.045193501866706176, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1087889698725206, 'center_x': -0.046796385277726095, 'center_y': 0.0708750505598697}, {'amp': 1, 'R_sersic': 0.4999999347287779, 'n_sersic': 4.0, 'e1': 0.17276681659509077, 'e2': -0.03061195226165507, 'center_x': -0.046796385277726095, 'center_y': 0.0708750505598697}] source result
+[{'amp': 1, 'R_sersic': 1.9470285293921186, 'n_sersic': 4.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}, {'amp': 1, 'R_sersic': 1.2009470383046552, 'n_sersic': 1.0, 'e1': -0.13392451776913528, 'e2': 0.02880030456372949, 'center_x': 0.49999999996799016, 'center_y': 0.12455623612682604}] lens light result
+[] point source result
+{} special param result
+611.5196166038513 time used for  PSO
+===================
+MPI option chosen for PSO.
+Computing the PSO ...
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Max iteration reached! Stopping.
+-43005.304619208684 reduced X^2 of best position
+-100008835.8919698 logL
+4651 effective number of data points
+[{'theta_E': 1.9751458677258389, 'gamma': 2.0, 'e1': -0.20981229554322192, 'e2': -0.03893948102312748, 'center_x': 0.4999997738973369, 'center_y': 0.11273746975724395}, {'gamma_ext': 0.001, 'psi_ext': 0.0, 'ra_0': 0, 'dec_0': 0}] lens result
+[{'amp': 1, 'n_max': 6, 'beta': 0.1087772559011704, 'center_x': -0.038782538303428475, 'center_y': 0.06603318006797369}, {'amp': 1, 'R_sersic': 0.04005313273152044, 'n_sersic': 4.0, 'e1': 0.4994786090819652, 'e2': -0.010592796172310017, 'center_x': -0.038782538303428475, 'center_y': 0.06603318006797369}] source result
+[{'amp': 1, 'R_sersic': 1.8916815397320277, 'n_sersic': 4.0, 'e1': -0.12656774675905413, 'e2': 0.010113894611428637, 'center_x': 0.4999997738973369, 'center_y': 0.11273746975724395}, {'amp': 1, 'R_sersic': 0.9805598351335187, 'n_sersic': 1.0, 'e1': -0.12656774675905413, 'e2': 0.010113894611428637, 'center_x': 0.4999997738973369, 'center_y': 0.11273746975724395}] lens light result
+[] point source result
+{} special param result
+845.2544758319855 time used for  PSO
+===================
